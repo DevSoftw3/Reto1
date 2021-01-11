@@ -13,7 +13,9 @@ lista = ultimo
 print(lista)
 
 print('\n2. Mueve el segundo elemento a la ultima posicion')
-lista.append(lista.pop(1))
+segundo = lista[1:3]
+lista =
+# lista.append(lista.pop(1))
 print(lista)
 
 print('\n3. Añade el numero 14 al comienzo de la lista')

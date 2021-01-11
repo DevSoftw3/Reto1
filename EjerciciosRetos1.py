@@ -9,7 +9,7 @@ lista = lista[:len(lista)-1]
 ultimo[len(ultimo):] = lista
 lista = ultimo
 
-# lista.insert(0,lista.pop())
+# lista.insert(0,lista.pop()) #Opcional
 print(lista)
 
 print('\n2. Mueve el segundo elemento a la ultima posicion')
@@ -46,7 +46,7 @@ for i in range(len(lista)):
             lista[j] = lista[j+1]
             lista[j+1] = aux
 
-# lista.sort()
+# lista.sort() #Opcional
 print(lista)
 
 print('\nVacia la lista')
